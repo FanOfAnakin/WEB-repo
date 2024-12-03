@@ -222,7 +222,7 @@ button a:hover {
 .category-text {
   font-size: 24px;
   margin-bottom: 20px;
-  font-family: 'Sequel', sans-serif;
+  font-family: "Sequel", sans-serif;
 }
 .grid-container {
   gap: 20px;
@@ -231,15 +231,15 @@ button a:hover {
   grid-template-rows: 240px 350px;
 }
 .grid-one {
-  font-family: 'Sequel', sans-serif;
+  font-family: "Sequel", sans-serif;
   text-align: center;
   padding: 100px 20px;
   font-size: 50px;
   font-weight: bold;
   border-radius: 10px;
   background-color: #dce4ee;
-  position: relative; 
-  overflow: hidden; 
+  position: relative;
+  overflow: hidden;
 }
 .grid-one span {
   background-image: linear-gradient(#262626, #b8c2ce);
@@ -247,15 +247,15 @@ button a:hover {
   -webkit-text-fill-color: transparent;
 }
 .grid-three {
-  font-family: 'Sequel', sans-serif;
+  font-family: "Sequel", sans-serif;
   text-align: center;
   padding: 100px 20px;
   font-size: 50px;
   font-weight: bold;
   border-radius: 10px;
   background-color: #dce4ee;
-  position: relative; 
-  overflow: hidden; 
+  position: relative;
+  overflow: hidden;
 }
 .grid-three span {
   background-image: linear-gradient(#262626, #b8c2ce);
@@ -263,15 +263,15 @@ button a:hover {
   -webkit-text-fill-color: transparent;
 }
 .grid-six {
-  font-family: 'Sequel', sans-serif;
+  font-family: "Sequel", sans-serif;
   text-align: center;
   padding: 100px 20px;
   font-size: 50px;
   font-weight: bold;
   border-radius: 10px;
   background-color: #dce4ee;
-  position: relative; 
-  overflow: hidden; 
+  position: relative;
+  overflow: hidden;
 }
 .grid-six span {
   background-image: linear-gradient(#262626, #b8c2ce);
@@ -279,15 +279,15 @@ button a:hover {
   -webkit-text-fill-color: transparent;
 }
 .grid-eight {
-  font-family: 'Sequel', sans-serif;
+  font-family: "Sequel", sans-serif;
   text-align: center;
   padding: 100px 20px;
   font-size: 50px;
   font-weight: bold;
   border-radius: 10px;
   background-color: #dce4ee;
-  position: relative; 
-  overflow: hidden; 
+  position: relative;
+  overflow: hidden;
 }
 .grid-eight span {
   background-image: linear-gradient(#262626, #b8c2ce);
