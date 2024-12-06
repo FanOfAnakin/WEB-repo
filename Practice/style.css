@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 img {
   max-width: 100%;
 }
@@ -184,7 +183,6 @@ button a:hover {
   color: black;
 }
 .pic-text1 {
-
   display: block;
   background-color: linear-gradient(#ffffff00 #f8f8f8);
   text-align: left;
@@ -229,8 +227,6 @@ button a:hover {
   font-weight: 410;
   line-height: 19.82px;
   text-align: left;
-
-
 }
 
 .pic-text {
@@ -604,110 +600,179 @@ button a:hover {
 }
 
 .recent-clubs {
-  width: 1255px;
-  height: 388px;
-  transform: translate(25%);
-  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1255px;
 }
+
 .recent {
-  width: 630px;
-  height: 350px;
+  width: 48%;
 }
+
+.recent-label p {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-family:"Sequel", sans-serif
+}
+
+.recent-content {
+  display: flex;
+  margin-top: 40px;
+  height: 334px;
+}
+
 .recent-left {
-  width: 200px;
-  height: 400px;
-  object-fit: cover;
+  width: 45%;
+  position: relative;
+  border-radius: 10px;
   overflow: hidden;
-  opacity: 0px;
-  border-radius: 6px;
 }
-.recent-img img {
-  margin-top: 59px;
+
+.recent-left img {
   width: 100%;
-  height: 100px;
-  object-fit: cover;
-  overflow: hidden;
-
-
-}
-/* .karate-text {
-  transform: translate(0%,20%);
-} */
-.recent-right {
-  width: 200px;
   height: 100%;
-  transform: translate(200%, 36%);
+  object-fit: cover;
 }
+
+.karate-text {
+  position: absolute;
+  color: #ebeef3;
+  width: 92.4%;
+  height: 25%;
+  transform: translate(-15.5%,39%);
+  bottom: 10px;
+  left: 10px;
+  padding: 10px;
+  margin: 30px;
+  backdrop-filter: blur(20px); 
+  font-family: "DM Sans", sans-serif;
+
+}
+
+.recent-right {
+  width: 45%;
+  margin-left: 48px;
+  background-color: #dce4ee;
+  border-radius: 7px;
+}
+
 .news-list {
   display: block;
+  list-style: none;
   padding: 0;
-  margin-right: 20px;
-  transform: translate(-80%, -170%);
-  margin-top: 59px;
 }
+
 .news-list li {
   display: flex;
-  justify-content: flex-start;
-  margin-bottom: 20px;
-  align-items: flex-start;
   gap: 10px;
+  margin-bottom: 15px;
+  align-items: flex-start;
 }
+
 .news-list img {
-  width: 70px;
-  height: 70px;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
-  overflow: hidden;
+  border-radius: 5px;
 }
-.news-list p {
-  margin: 5px;
-}
+
 .news-dt {
-  font-family: DM Sans;
-  font-size: 10px;
-  font-weight: 500;
-  line-height: 10.09px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-.news-desc {
-  font-family: Sequel Sans;
+  margin-top: 20px;
   font-size: 12px;
-  font-weight: 410;
-  line-height: 19.82px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  line-height: 1.4;
+  font-family: "DM Sans", sans-serif;
+  color: #868686;
 }
+.news-desc{
+  font-family: "Sequel", sans-serif;
+  color: #424242;
+  font-weight: bold;
+  font-size: 15px;
+}
+.more-btn {
+  margin: 20px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #b8c2ce;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: translate(88%);
+}
+
 .club {
-  width: 630px;
-  height: 100%;
-  transform: translate(99%, -90%);
-  z-index: 2;
+  width: 48%;
+  height: 400px;
+  margin-left: 100px;
 }
-.club-label {
+
+.club-label p {
   font-family: "Sequel", sans-serif;
   font-size: 28px;
-  transform: translate(19%, 55%);
-}
-.club-table img {
-  width: 20px;
-  height: 20px;
-}
-.club-table {
-  width: 80%;
-  height: 80%;
-  background-color: #dce4ee;
-  font-family: "Sequel", sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-left: 120px;
-  margin-top: 35px;
-  padding: 20px;
-}
-.club-table th {
+  font-weight: 400;
   text-align: left;
 }
-.club-name {
+
+.club-table {
+  width: 100%;
+  height: 82%;
+  overflow: hidden;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 40px;
+  background-color: #dce4ee;
+  border-radius: 7px;
 }
+
+.club-table th,
+.club-table td {
+  padding: 10px;
+}
+.club-table th,
+.club-name {
+  font-family: "Sequel", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.club-table img {
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.club-table th {
+  background-color: #dce4ee;
+}
+.table-line1{
+  color:#b8c2ce noshade ;
+  transform: translate(0%,7000%);
+  z-index: 2;
+}
+.table-line2{
+  color:#b8c2ce noshade ;
+  transform: translate(0%,9000%);
+  z-index: 2;
+}
+.table-line3{
+  color:#b8c2ce noshade ;
+  transform: translate(0%,11200%);
+  z-index: 2;
+}
+.table-line4{
+  color:#b8c2ce noshade ;
+  transform: translate(0%,13500%);
+  z-index: 2;
+}
+.table-line5{
+  color:#b8c2ce noshade ;
+  transform: translate(0%,15800%);
+  z-index: 2;
+}
+
+
+
