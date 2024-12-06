@@ -752,6 +752,7 @@ button a:hover {
 .club-table th,
 .club-table td {
   padding: 10px;
+  font-family: "Sequel", sans-serif;
 }
 .club-table th,
 .club-name {
