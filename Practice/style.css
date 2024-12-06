@@ -366,12 +366,12 @@ button a:hover {
   border-radius: 10px;
   width: 1255px;
   margin: 0 auto;
-  transform: translate(-0.5%);
+  transform: translate(-1%);
 }
 
-/* .trending {
+.trending {
   flex: 2;
-} */
+}
 
 .trending-text {
   padding-top: 20px;
@@ -502,7 +502,7 @@ button a:hover {
   font-weight: bold;
 }
 .football2 {
-  transform: translate(25%);
+  transform: translate(24.5%);
   width: 1255px;
   height: 588px;
   margin-top: 50px;
@@ -611,6 +611,7 @@ button a:hover {
   justify-content: space-between;
   margin: 50px auto;
   max-width: 1255px;
+  transform: translate(-1.2%);
 }
 
 .recent {
