@@ -388,7 +388,7 @@ button a:hover {
   width: 350px;
   transform: translate(67%);
   background-color: #868686;
-  height: 3px;
+  height: 1px;
 }
 .li-d1 {
   font-family: "DM Sans", sans-serif;
@@ -613,7 +613,7 @@ button a:hover {
 .recent-label p {
   font-size: 28px;
   margin-bottom: 15px;
-  font-family:"Sequel", sans-serif
+  font-family: "Sequel", sans-serif;
 }
 
 .recent-content {
@@ -640,14 +640,13 @@ button a:hover {
   color: #ebeef3;
   width: 92.4%;
   height: 25%;
-  transform: translate(-15.5%,39%);
+  transform: translate(-15.5%, 39%);
   bottom: 10px;
   left: 10px;
   padding: 10px;
   margin: 30px;
-  backdrop-filter: blur(20px); 
+  backdrop-filter: blur(20px);
   font-family: "DM Sans", sans-serif;
-
 }
 
 .recent-right {
@@ -686,7 +685,7 @@ button a:hover {
   font-family: "DM Sans", sans-serif;
   color: #868686;
 }
-.news-desc{
+.news-desc {
   font-family: "Sequel", sans-serif;
   color: #424242;
   font-weight: bold;
@@ -748,31 +747,28 @@ button a:hover {
 .club-table th {
   background-color: #dce4ee;
 }
-.table-line1{
-  color:#b8c2ce noshade ;
-  transform: translate(0%,7000%);
+.table-line1 {
+  color: #b8c2ce noshade;
+  transform: translate(0%, 7000%);
   z-index: 2;
 }
-.table-line2{
-  color:#b8c2ce noshade ;
-  transform: translate(0%,9000%);
+.table-line2 {
+  color: #b8c2ce noshade;
+  transform: translate(0%, 9000%);
   z-index: 2;
 }
-.table-line3{
-  color:#b8c2ce noshade ;
-  transform: translate(0%,11200%);
+.table-line3 {
+  color: #b8c2ce noshade;
+  transform: translate(0%, 11200%);
   z-index: 2;
 }
-.table-line4{
-  color:#b8c2ce noshade ;
-  transform: translate(0%,13500%);
+.table-line4 {
+  color: #b8c2ce noshade;
+  transform: translate(0%, 13500%);
   z-index: 2;
 }
-.table-line5{
-  color:#b8c2ce noshade ;
-  transform: translate(0%,15800%);
+.table-line5 {
+  color: #b8c2ce noshade;
+  transform: translate(0%, 15800%);
   z-index: 2;
 }
-
-
-
