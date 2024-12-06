@@ -870,22 +870,34 @@ button a:hover {
   font-family: "DM Sans", sans-serif;
   color: #868686;
 }
-.slider-controls {
+.slider-buttons {
   display: flex;
   justify-content: flex-start;
   gap: 10px;
   margin-bottom: 40px;
-  max-width: 1200px;
+  max-width: 1255px;
   margin: 0 auto;
   padding: 20px;
 }
-.slider-control {
-  background: #fff;
-  border: 1px solid #ddd;
-  color: #333;
-  width: 40px;
+.slider-button-left {
+  background: #B8C2CE;
+  border: none;
+  color: #dbd8d8;
+  width: 60px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.slider-button-right {
+  background: #424242;
+  border: none;
+  color: #dbd8d8;
+  width: 60px;
+  height: 40px;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
