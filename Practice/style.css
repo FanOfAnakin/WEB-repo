@@ -74,18 +74,9 @@ li a:hover {
   padding: 12px;
   margin-left: 100px;
 }
-.search:hover {
-  color: #262626;
-}
-
-button a {
-  color: #f9fafc;
-  font-size: 15px;
-  text-decoration: none;
-}
-
-button a:hover {
-  color: #262626;
+.search:hover{
+  color: #f8f8f8;
+  background-color:  #424242;
 }
 
 .hero-section {
@@ -150,28 +141,45 @@ button a:hover {
 .img-side-bottom img {
   transform: scale(1.5);
 }
+
+.continue a{
+  font-family: "DM Sans", sans-serif;
+  color: #dce4ee;
+  text-decoration: none;
+  font-weight: 700;
+}
 .continue {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-100%, 650%);
+  text-decoration: none;
+  transform: translate(-101%, 670%);
   width: 190px;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 3px;
   border: none;
   background-color: #262626;
 }
-
+.continue:hover{
+  background-color: #868686;
+}
+.today a{
+  color: #dce4ee;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+}
 .today {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(448%, -520%);
+  transform: translate(404%, -520%);
   width: auto;
-  padding: 10px;
+  padding: 7px 15px;
   z-index: 2;
-  border-radius: 7px;
+  border-radius: 3px;
   border: none;
+  background-color: #868686;
+  color: white;
+  text-decoration: none;
+}
+
+.today:hover{
   background-color: #262626;
 }
 
