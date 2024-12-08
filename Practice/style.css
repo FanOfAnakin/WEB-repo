@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 html,
 body {
   width: 100%;
@@ -65,12 +66,16 @@ li a:hover {
   color: #262626;
 }
 
-.first {
+.search {
   background-color: #b8c2ce;
+  color: #f8f8f8;
   border-radius: 7px;
   border: none;
   padding: 12px;
   margin-left: 100px;
+}
+.search:hover {
+  color: #262626;
 }
 
 button a {
@@ -170,12 +175,12 @@ button a:hover {
   background-color: #262626;
 }
 
-.hero-section .h1 {
+.h1 {
   font-family: "Sequel", sans-serif;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-120%, -90%);
+  /* top: 50%;
+  left: 50%; */
+  transform: translate(-75%, -30%);
   font-size: 38px;
   background-image: linear-gradient(#262626, #b8c2ce);
   -webkit-background-clip: text;
@@ -248,8 +253,8 @@ button a:hover {
 }
 
 .category {
-  padding: 100px;
-  padding-left: 310px;
+  padding: 100px 310px;
+  /* padding-left: 310px; */
   margin-top: 20px;
 }
 
@@ -266,6 +271,7 @@ button a:hover {
   grid-template-rows: 240px 240px;
   margin: 0 auto;
 }
+
 .grid-one {
   font-family: "Sequel", sans-serif;
   text-align: center;
@@ -367,6 +373,7 @@ button a:hover {
   display: flex;
   padding-left: 20px;
   background-color: #dce4ee;
+  flex-wrap: wrap;
   border-radius: 10px;
   width: 1255px;
   margin: 0 auto;
@@ -490,7 +497,7 @@ button a:hover {
   z-index: 2;
   font-family: "DM Sans", sans-serif;
   padding: 20px;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  text-shadow: 0 0 5px #000000b3;
   z-index: 2;
 }
 
@@ -647,6 +654,7 @@ button a:hover {
 }
 
 .recent-left {
+  flex-wrap: wrap;
   width: 45%;
   position: relative;
   border-radius: 10px;
@@ -807,7 +815,6 @@ button a:hover {
   padding: 20px;
 }
 .article {
-
   border-radius: 8px;
   overflow: hidden;
 }
@@ -832,7 +839,7 @@ button a:hover {
   padding: 2px 5px;
   border-radius: 4px;
   padding: 6px 10px;
-  font-size:12px;
+  font-size: 12px;
   border-radius: 2px;
   border: solid 1px;
   border-color: #dce4ee;
@@ -881,7 +888,7 @@ button a:hover {
   padding: 20px;
 }
 .slider-button-left {
-  background: #B8C2CE;
+  background: #b8c2ce;
   border: none;
   color: #dbd8d8;
   width: 60px;
@@ -923,7 +930,7 @@ button a:hover {
   font-family: "Sequel", sans-serif;
   font-weight: bolder;
   font-size: 60px;
-  background: linear-gradient(180deg, #262626 0%, #B8C2CE 100%);
+  background: linear-gradient(180deg, #262626 0%, #b8c2ce 100%);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -946,7 +953,7 @@ button a:hover {
 }
 .newsletter-image {
   flex: 1;
-  transform: translate(0%,-30%);
+  transform: translate(0%, -30%);
 }
 .footer {
   display: flex;
@@ -956,7 +963,7 @@ button a:hover {
   margin: 0 auto;
   padding: 20px;
 }
-.social-icons .fa{
+.social-icons .fa {
   margin-right: 10px;
   background: #262626;
   padding: 8px 16px;
@@ -966,7 +973,7 @@ button a:hover {
   font-size: 40px;
 }
 
-.pagination-bottom{
+.pagination-bottom {
   gap: 10px;
 }
 
@@ -1010,4 +1017,98 @@ button a:hover {
 
 .btn-bottom:hover:not(.active):not(.disabled) {
   background-color: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  
+  h1 {
+    font-size: 35px;
+    display: inline-block;
+  }
+  .logo{
+    
+  }
+  .menue{
+    display:flex;
+  }
+  .hero-section{
+    height: 700px;
+    margin-bottom: 20px;
+  }
+  .img-back {
+    width: 350px;
+    transform: translate(-90%, -90%);
+  }
+  .img-front {
+    width: 550px;
+    transform: translate(-30%, -60%);
+  }
+  .img-side-top {
+    width: 250px;
+    height: 150px;
+    transform: translate(-110%, 140%);
+  }
+  .img-side-bottom {
+    width: 250px;
+    height: 150px;
+    transform: translate(20%, 125%);
+  }
+  .today {
+    transform: translate(-460%, 430%);
+  }
+  .hero-section .desc {
+    transform: translate(-76%, 640%);
+    margin-bottom: 10px;
+  }
+  .continue {
+    transform: translate(-145%, 1100%);
+    margin-top: 20px;
+  }
+  .category {
+    padding: 100px 20px;
+    margin-top: 100px;
+  }
+  .grid-container {
+    grid-template-columns: 300px 300px;
+    margin-top: 30px;
+  }
+
+  .news-container {
+    display: inline-block;
+    width: auto;
+  }
+.image-football{
+  height: 600px;
+  margin-bottom: 50px;
+}  .football2 {
+    display: inline-block;
+    width: auto;
+  }
+  .pagination{
+    display: inline-flex;
+  }
+  .recent-clubs {
+    display: inline-block;
+  }
+  .recent{
+    width: auto;
+    margin-bottom: 40px;
+  }
+  .news-list{
+    display: inline-block;
+    width: auto;
+  }
+  .club{
+    width: auto;
+    margin-left: 0%;
+  }
+  .newsletter-image{
+    transform: scale(4);
+    margin-right: 40px;
+    margin-top: 190px;
+    z-index: 1;
+  }
+  .newsletter-content{
+    z-index: 2;
+  }
 }
