@@ -262,6 +262,7 @@ li a:hover {
 
 .category {
   padding: 100px 310px;
+  margin-inline: 10px;
   margin-top: 20px;
 }
 
@@ -310,6 +311,7 @@ li a:hover {
   flex-wrap: wrap;
   border-radius: 10px;
   max-width: 1255px;
+  margin-inline: 10px;
   margin: 0 auto;
   transform: translate(-1%);
 }
@@ -334,35 +336,13 @@ li a:hover {
 }
 .li-desc {
   font-family: "DM Sans", sans-serif;
-  width: 240px;
+  max-width: 240px;
 }
 .line1 {
   width: 350px;
   transform: translate(67%);
   background-color: #868686;
   height: 1px;
-}
-.li-d1 {
-  font-family: "DM Sans", sans-serif;
-  color: #868686;
-}
-.li-h1 {
-  font-family: "Sequel", sans-serif;
-}
-.li-desc1 {
-  font-family: "DM Sans", sans-serif;
-  width: 240px;
-}
-.li-d2 {
-  font-family: "DM Sans", sans-serif;
-  color: #868686;
-}
-.li-h2 {
-  font-family: "Sequel", sans-serif;
-}
-.li-desc2 {
-  font-family: "DM Sans", sans-serif;
-  width: 240px;
 }
 
 .trending-list {
@@ -448,6 +428,7 @@ li a:hover {
 }
 .football2 {
   margin-bottom: 60px;
+  line-height: 1.05;
   margin: 0 auto;
   max-width: 1255px;
   height: 588px;
@@ -565,6 +546,7 @@ li a:hover {
   justify-content: space-between;
   margin: 50px auto;
   max-width: 1255px;
+  margin-inline: 10px;
   /* transform: translate(-1.2%); */
   margin: 0 auto;
   margin-top: 50px;
@@ -741,6 +723,7 @@ li a:hover {
 
 .articles {
   max-width: 1255px;
+  margin-inline: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -818,6 +801,7 @@ li a:hover {
   gap: 10px;
   margin-bottom: 40px;
   max-width: 1255px;
+  margin-inline: 10px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -852,6 +836,7 @@ li a:hover {
   overflow: hidden;
   margin-bottom: 40px;
   max-width: 1255px;
+  margin-inline: 10px;
   height: 380px;
   margin: 0 auto;
   padding: 20px;
@@ -1010,7 +995,7 @@ li a:hover {
     width: auto;
   }
   .image-football {
-    height: 600px;
+    min-height: 600px;
     margin-bottom: 50px;
   }
   .football2 {
