@@ -464,39 +464,29 @@ li a:hover {
 .football-dt {
   font-family: "DM Sans", sans-serif;
   color: #b8c2ce;
-  font-family: DM Sans;
   font-size: 18px;
   font-weight: 400;
   line-height: 18.16px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .football-headl {
   font-family: "Sequel", sans-serif;
   color: #f9fafc;
-  font-family: Sequel Sans;
   font-size: 36px;
   font-weight: 435;
   width: 600px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .football-desc {
   font-family: "DM Sans", sans-serif;
   color: #ffffff;
-  font-family: DM Sans;
   font-size: 20px;
   font-weight: 500;
   width: 600px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .pagination {
   gap: 10px;
-  transform: translate(80%, -500%);
+  transform: translate(80%, -550%);
 }
 
 .page-btn {
@@ -1153,7 +1143,6 @@ li a:hover {
   }
 }
 
-/* Breakpoint for 1000px and Below */
 @media screen and (max-width: 1000px) {
   h1 {
     font-size: 40px;
@@ -1228,7 +1217,6 @@ li a:hover {
   }
 }
 
-/* Breakpoint for 800px and Below */
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 35px;
@@ -1298,7 +1286,6 @@ li a:hover {
   }
 }
 
-/* Breakpoint for 600px and Below */
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 30px;
@@ -1350,7 +1337,6 @@ li a:hover {
   }
 }
 
-/* Breakpoint for 400px and Below */
 @media screen and (max-width: 400px) {
   h1 {
     font-size: 25px;
@@ -1396,6 +1382,9 @@ li a:hover {
     margin-top: 20px;
   }
 
+  .cycling-text{
+    display: block;
+  }
   .newsletter-image {
     transform: scale(1.2);
     margin-top: 100px;
