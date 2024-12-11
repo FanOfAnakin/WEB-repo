@@ -464,9 +464,7 @@ li a:hover {
   width: fit-content;
 }
 .football2-text {
-  width: 100%;
   transform: translate(5%, -165%);
-  display: block;
   z-index: 2;
 }
 .football-dt {
@@ -541,14 +539,11 @@ li a:hover {
 
 .recent-clubs {
   display: flex;
-  justify-content: space-between;
-  margin: 50px auto;
+  
   max-width: 1255px;
   margin-inline: 10px;
-  /* transform: translate(-1.2%); */
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px auto;
+
 }
 
 .recent {
@@ -1343,6 +1338,19 @@ li a:hover {
     grid-template-columns: 1fr;
     margin-top: 20px;
   }
+  
+  .recent-left{
+    flex-direction: row;
+    display: inline-block;
+    grid-template-columns: repeat(1,1fr);
+  }
+ 
+ .football-headl{
+    font-size: 20px;
+  }
+  .football-desc{
+    font-size: 15px;
+  }
 
 
   .newsletter-image {
@@ -1367,7 +1375,7 @@ li a:hover {
     transform: translate(-55%, -55%);
   }
   .recent-left{
-    flex-direction: column;
+    flex-direction: row;
     display: inline-block;
     grid-template-columns: repeat(1,1fr);
   }
