@@ -1299,6 +1299,7 @@ li a:hover {
     height: 150px;
     transform: translate(5%, 125%);
   }
+  
   .hero-section .desc {
     transform: translate(-47%, -20%);
     margin-bottom: 10px;
