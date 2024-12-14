@@ -1338,11 +1338,19 @@ li a:hover {
     grid-template-columns: 1fr;
     margin-top: 20px;
   }
-  
+
+  .recent-content{
+     flex-direction: column;
+     height:auto;
+  }
   .recent-left{
-    flex-direction: row;
-    display: inline-block;
-    grid-template-columns: repeat(1,1fr);
+    height: 300px;
+    width: 100%;
+  }
+  .recent-right{
+    height: 300px;
+    width: 100%;
+    margin: 10px auto;
   }
  
  .football-headl{
