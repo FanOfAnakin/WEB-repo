@@ -1287,6 +1287,9 @@ li a:hover {
     width: 100%;
     margin-bottom: 10px;
   }
+  .karate-text{
+    width: 500px;
+  }
   .recent-right {
     height: 300px;
     width: 100%;
