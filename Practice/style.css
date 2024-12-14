@@ -23,10 +23,17 @@ body {
 .navbar {
   background: #f9fafc;
   font-family: "DM Sans", sans-serif;
-
   padding-top: 10px;
   display: flex;
   justify-content: center;
+  z-index: 2;
+}
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+}
+label {
+  display: none;
 }
 
 .navdiv {
@@ -50,6 +57,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 70px;
+  z-index: 2;
 }
 
 li {
@@ -928,6 +936,25 @@ li a:hover {
 }
 
 @media screen and (max-width: 700px) {
+  label {
+    display: block;
+  }
+  .navbar ul {
+    flex-direction: column;
+    top: -100%;
+    top: 40px;
+    align-items: center;
+    background-color: #262626;
+    gap: 10px;
+    width: 100%;
+    transition: 0.5s;
+    height: 250px;
+    z-index: 2;
+  }
+  input[type="checkbox"]:checked ~ ul {
+    top: 0;
+  }
+  
   h1 {
     font-size: 35px;
     display: inline-block;
@@ -1218,6 +1245,24 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  label {
+    display: block;
+  }
+  .navbar ul {
+    flex-direction: column;
+    top: -100%;
+    top: 40px;
+    align-items: center;
+    background-color: #262626;
+    gap: 10px;
+    width: 100%;
+    transition: 0.5s;
+    height: 250px;
+    z-index: 2;
+  }
+  input[type="checkbox"]:checked ~ ul {
+   top: 0;
+  }
   h1 {
     font-size: 30px;
     display: inline-block;
@@ -1287,7 +1332,7 @@ li a:hover {
     width: 100%;
     margin-bottom: 10px;
   }
-  .karate-text{
+  .karate-text {
     width: 500px;
   }
   .recent-right {
