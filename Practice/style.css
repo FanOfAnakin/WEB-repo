@@ -23,10 +23,17 @@ body {
 .navbar {
   background: #f9fafc;
   font-family: "DM Sans", sans-serif;
-
   padding-top: 10px;
   display: flex;
   justify-content: center;
+  z-index: 2;
+}
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+}
+label {
+  display: none;
 }
 
 .navdiv {
@@ -50,6 +57,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 70px;
+  z-index: 2;
 }
 
 li {
@@ -928,6 +936,27 @@ li a:hover {
 }
 
 @media screen and (max-width: 700px) {
+ 
+  label {
+    display: block;
+  }
+  .navbar ul {
+    position:absolute;
+    flex-direction: column;
+    left: -100%;
+    top: 80px;
+    align-items: center;
+    background-color: #262626;
+    gap: 10px;
+    width: 100%;
+    transition: 0.5s;
+    height: 250px;
+    z-index: 3;
+  }
+  input[type="checkbox"]:checked ~ ul {
+    left: 0;
+  }
+  
   h1 {
     font-size: 35px;
     display: inline-block;
@@ -1218,37 +1247,65 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  /* label {
+    display: block;
+  }
+  .navbar ul {
+    position: absolute;
+    left: -100%;
+    top: 60px;
+    align-items: center;
+    background-color: #262626;
+    gap: 10px;
+    width: 100%;
+    transition: 0.5s;
+    height: 250px;
+    z-index: 2;
+  }
+  input[type="checkbox"]:checked ~ ul {
+   left: 0;
+  } */
   h1 {
     font-size: 30px;
     display: inline-block;
+    transform: translate(40%,-160%);
   }
 
   .hero-section {
-    height: 650px;
+    height: 750px;
     margin-bottom: 20px;
   }
 
   .img-back {
     width: 300px;
-    transform: translate(-60%, -60%);
+    transform: translate(-90%, -170%);
   }
 
   .img-front {
     width: 500px;
-    transform: translate(-40%, -70%);
+    transform: translate(-30%, -120%);
   }
 
   .today {
-    transform: translate(-350%, 300%);
+    transform: translate(-350%,460%);
   }
-
+  .img-side-top {
+    width: 230px;
+    height: 150px;
+    transform: translate(-100%, 140%);
+  }
+  .img-side-bottom {
+    width: 215x;
+    height: 150px;
+    transform: translate(5%, 125%);
+  }
   .hero-section .desc {
-    transform: translate(-70%, 550%);
+    transform: translate(-47%, -20%);
     margin-bottom: 10px;
   }
 
   .continue {
-    transform: translate(-90%, 700%);
+    transform: translate(-90%, 100%);
     margin-top: 20px;
   }
 
@@ -1287,7 +1344,7 @@ li a:hover {
     width: 100%;
     margin-bottom: 10px;
   }
-  .karate-text{
+  .karate-text {
     width: 500px;
   }
   .recent-right {
