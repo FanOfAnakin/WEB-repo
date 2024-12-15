@@ -1268,7 +1268,7 @@ li a:hover {
   h1 {
     font-size: 30px;
     display: inline-block;
-    transform: translate(40%,-160%);
+    transform: translate(50%,-160%);
   }
 
   .hero-section {
@@ -1278,16 +1278,16 @@ li a:hover {
 
   .img-back {
     width: 300px;
-    transform: translate(-90%, -170%);
+    transform: translate(-80%, -160%);
   }
 
   .img-front {
-    width: 500px;
+    width: 440px;
     transform: translate(-30%, -120%);
   }
 
   .today {
-    transform: translate(-350%,460%);
+    transform: translate(-300%,460%);
   }
   .img-side-top {
     width: 230px;
